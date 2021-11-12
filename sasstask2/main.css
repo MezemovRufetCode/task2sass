@@ -1,0 +1,54 @@
+body {
+  height: 900vh;
+}
+
+.adver {
+  background-image: url(./image/night-city-buildings-wallpaper.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.adver .announce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+  background-color: rgba(43, 42, 42, 0.5);
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.adver .jobcat {
+  height: 90vh;
+  background-color: rgba(45, 49, 146, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.adver .jobcat .content p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 0.5px solid white;
+}
+/*# sourceMappingURL=main.css.map */
